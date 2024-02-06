@@ -13,34 +13,44 @@
   #main{
     width: 100%;
     height: 100%;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
   }
 
   #nav{
     /* background-color: red; */
-    /* height: 100px; */
     width: 100%;
     display: flex;
     justify-content: space-between;
+    padding: 30px 40px;
   }
 
   #navpart1{
-    height: 100%;
-    /* width: 40%; */
     display: flex;
-    /* align-items: center; */
     justify-content: space-between;
-    padding: 13px;
-    background-color: blue;
+    width: 43%;
   }
 
   #navpart2{
-    height: 100%;
-    width: 40%;
     display: flex;
-    /* align-items: center; */
     justify-content: space-between;
-    padding: 13px;
-    background-color: blue;
+    width: 45%;
+    padding-top: 5px;
+    padding-right: 20px;
+    /* background-color: red; */
+  }
+
+  #nav h3{
+    font-size: 22px;
+    font-weight: 600;
+  }
+
+  #nav h2{
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  #navpart2{
+    font-size: 22px;
+    font-weight: 600;
   }
   
